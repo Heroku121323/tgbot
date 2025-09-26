@@ -56,8 +56,8 @@ tgskaz/
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/yourusername/tgskaz.git
-cd tgskaz
+git clone https://github.com/Heroku121323/tgbot.git
+cd tgbot
 ```
 
 ### 2. Создание виртуального окружения
@@ -76,9 +76,19 @@ pip install -r requirements.txt
 ### 4. Настройка конфигурации
 Отредактируйте файл `config.py`:
 ```python
-BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'
-ADMINS = [YOUR_ADMIN_ID_1, YOUR_ADMIN_ID_2]
+BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'  # Получите у @BotFather
+ADMINS = [YOUR_ADMIN_ID_1, YOUR_ADMIN_ID_2]  # Ваши Telegram ID
 ```
+
+**Как получить токен бота:**
+1. Напишите @BotFather в Telegram
+2. Отправьте команду `/newbot`
+3. Следуйте инструкциям
+4. Скопируйте полученный токен
+
+**Как узнать свой ID:**
+1. Напишите @userinfobot в Telegram
+2. Скопируйте ваш ID
 
 ### 5. Запуск бота
 ```bash
